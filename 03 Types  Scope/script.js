@@ -16,16 +16,16 @@
 // console.log(array); // [1,2,3,4]
 // console.log(anotherArray); // [1,2,3,4]
 
-// array = ['a', 'b']; 
+// array = ['a', 'b'];
 // console.log(array); // ['a', 'b'];
 // console.log(anotherArray); // [1,2,3,4]
 
-// // var test = "Global scope"; console.log(test) // test is not defined 
+// // var test = "Global scope"; console.log(test) // test is not defined
 // var test = "Global scope";
 // console.log(test);
 
 // function localScope() {
-//   var test = 'Local scope'; 
+//   var test = 'Local scope';
 //   console.log(test); // Local scope
 // }
 
@@ -153,7 +153,5 @@
 
 // console.log(array.reduce(function(total, value) {
 //   return total + value;
-// })); 
+// }));
 // console.log(array); // 10
-
-// 
