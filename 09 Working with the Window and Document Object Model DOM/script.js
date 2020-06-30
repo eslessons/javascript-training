@@ -47,4 +47,26 @@ document.querySelector('a').style.backgroundColor = 'red';
 document.querySelectorAll('.simple')[1].backgroundColor = 'red';
 document.querySelector('.simple').firstElementChild.textContent = 'Hello';
 
-var p = document.createElement('P')
+var p = document.createElement('P');
+p.textContent = 'A new paragraph!';
+p.style.fontSize = '17px';
+// console.log(p);
+// var a = document.querySelector('a');
+
+// a.appendChild(p);
+
+// var li = document.querySelector('li');
+// li.appendChild(p);
+
+// var a = li.firstElementChild;
+// li.insertBefore(p, a);
+
+var a = document.querySelectorAll('a')[1];
+a.parentElement.removeChild(a); // new -> a.remove();
+
+a.parentNode.removeChild(a);
+
+alert('This is an alert!');
+console.log(confirm('Are you sure?')); // true || false
+console.log(prompt('YOur name?')); // weird
+
