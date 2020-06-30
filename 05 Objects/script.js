@@ -228,18 +228,38 @@ var account = {
 // account.deposit(3000);
 // account.withdraw(1000);
 
-Object.defineProperty(account, 'name', {
-  value: 'ID000-1',
-  writable: true, // else you cannot reassign
-  // enumerable: true, 
-  get: function() {
-    return this._name;
-  },
-  set: function(name) {
-    this._name = name;
-  }
-});
+// Object.defineProperty(account, 'name', {
+//   value: 'ID000-1',
+//   writable: true, // else you cannot reassign
+//   // enumerable: true, 
+//   get: function() {
+//     return this._name;
+//   },
+//   set: function(name) {
+//     this._name = name;
+//   }
+// });
 
-account.name = 'ID000-3';
-console.log(account.name)
+// account.name = 'ID000-3';
+// console.log(account.name)
  
+// var person = {
+//   name: 'Max',
+//   age: 27,
+//   greet: function() {
+//     console.log('Hello');
+//   }
+// }
+
+// delete person.name;
+
+// console.log(person.name) // undefined
+
+// console.log('name' in person); // true
+// console.log('Name' in person); // false
+
+// for (var field in person) {
+//   console.log(field); // "name" "age" "greet"
+//  console.log(person[field]); "Max" 27 function () {...}
+// }
+
